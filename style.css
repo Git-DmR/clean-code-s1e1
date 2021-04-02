@@ -67,6 +67,10 @@
   margin: 0;
   text-transform: uppercase;
 }
+.new-task-input:focus,
+.task-list-input:focus {
+  color: #333;
+}
 .new-task-input,
 .task-list-input {
   margin: 0;
@@ -82,10 +86,6 @@
   width: 56%;
   display: inline-block;
   flex-grow: 1;
-}
-.new-task-input:focus,
-.task-list-input:focus {
-  color: #333;
 }
 
 /* New Task */
